@@ -1,0 +1,101 @@
+.main-header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  width: 100vw;
+  padding: 0 10vw;
+  color: #000;
+  z-index: 1;
+  transition: 0.4s ease-out;
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    color: inherit;
+    text-transform: uppercase;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+
+    .nav-link {
+      a {
+        margin: 0.2rem;
+        padding: 1rem 0.5rem;
+        color: #fff;
+      }
+      a:hover {
+        background: rgba(220, 220, 220, 0.4);
+      }
+    }
+  }
+
+  .menu-icon {
+    position: relative;
+    padding: 26px 10px;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+
+    &__line {
+      display: block;
+      position: relative;
+      background: #000;
+      height: 2px;
+      width: 20px;
+      border-radius: 4px;
+      transition: background 0.8s ease;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-radius: 4px;
+        background: #000;
+        transition: background 0.75s ease;
+      }
+      &::before {
+        transform: translateY(-5px);
+      }
+      &::after {
+        transform: translateY(5px);
+      }
+    }
+  }
+
+  .menu-btn {
+    position: absolute;
+    top: -100px;
+
+    &:focus ~ .menu-icon {
+      .menu-icon__line {
+        &::before {
+          transform: translateY(-7px);
+        }
+        &::after {
+          transform: translateY(7px);
+        }
+      }
+    }
+  }
+
+  &.scrolled {
+    height: 50px;
+    background: #000;
+    color: #fff;
+
+    .menu-icon {
+      &__line,
+      &__line::before,
+      &__line::after {
+        background: #fff;
+      }
+    }
+  }
+}

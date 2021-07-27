@@ -6,19 +6,95 @@
     <title>Antonio Melena</title>
   </head>
   <body>
-    <div>
-      <header>
-        <nav>
-          <ul>
-            <li id="projectsListItem" class="tab">Projects</li>
-            <li id="skillsListItem" class="tab">Skills</li>
-            <li id="contactListItem" class="tab">Contact</li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-    <div>
-      <button id="addValues" class="btn btn-primary">Add Values</button>
+    <header class="main-header">
+      <div class="logo">
+        <a href="#">ANTONIO MELENA</a>
+      </div>
+
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="menu-icon__line"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li id="projectsListItem" class="nav-link">
+          <a href="#">Skills</a>
+        </li>
+        <li id="skillsListItem" class="nav-link"><a href="#">Projects</a></li>
+        <li id="contactListItem" class="nav-link">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="scroll">
+      <section class="hero">
+        <h1>Aspiring Software Developer</h1>
+      </section>
+
+      <section class="child container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis porro,
+          pariatur laudantium velit itaque tempore repudiandae odit aliquam
+          ipsam inventore!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          adipisci consequuntur, excepturi fugiat voluptatum quasi est inventore
+          quisquam doloribus deleniti, esse eum optio eveniet vero sequi earum
+          ea nesciunt. Qui vitae odit accusantium enim numquam nesciunt ipsa
+          maxime non, molestias ea! Accusantium numquam commodi itaque ipsum
+          veritatis dolores sint sunt?
+        </p>
+      </section>
+      <section class="child skills">
+        <h1>SKILLS</h1>
+        <h2>Front End</h2>
+        <img src="./icons/html.svg" alt="html icon" />
+        <label for="html" class="fab html-icon">HTML</label>
+        <img src="./icons/css.svg" alt="css icon" />
+        <label for="css" class="fab css-icon">CSS</label>
+        <img src="./icons/javascript-programming-language.svg" alt="js icon" />
+        <label for="js" class="fab js-icon">Javascript</label>
+        <img src="./icons/sass.svg" alt="sass icon" />
+        <label for="sass" class="fab sass-icon">Sass</label>
+
+        <h2>Back End</h2>
+        <img src="./icons/ruby-programming-language.svg" alt="ruby icon" />
+        <label for="ruby" class="ruby-icon">Ruby</label>
+        <img src="./icons/javascript-programming-language.svg" alt="js icon" />
+        <label for="js" class="fab js-icon">Javascript</label>
+        <img src="./icons/node-js.svg" alt="node-js icon" />
+        <label for="node-js" class="fab node-icon">Node Js</label>
+        <img src="./icons/expressjs.svg" alt="express icon" />
+        <label for="express" class="fab express-icon">Express</label>
+
+        <h2>Misc.</h2>
+        <img src="./icons/webpack.svg" alt="webpack icon" />
+        <label for="webpack" class="webpack-icon">Webpack</label>
+        <img src="./icons/npm.svg" alt="npm icon" />
+        <label for="npm" class="npm-icon">NPM</label>
+        <img src="./icons/git.svg" alt="git icon" />
+        <label for="git" class="git-icon">Git</label>
+        <img src="./icons/github.svg" alt="github icon" />
+        <label for="github" class="github-icon">Github</label>
+        <img src="./icons/visual-studio-code.svg" alt="vs code icon" />
+        <label for="vs-code" class="vs-code-icon">VS Code</label>
+      </section>
+      <section class="child projects">
+        <h1>PROJECTS</h1>
+      </section>
+      <section class="child contact">
+        <h1>CONTACT ME</h1>
+        <div class="contactText">
+          <p>Get in touch with me at:</p>
+          <p id="emailText">melenaantonio@gmail.com</p>
+          <p>OR</p>
+
+          <img src="icons/github.svg" alt="github" />
+          <img src="icons/linkedin-app.svg" alt="linkedin-app" />
+        </div>
+      </section>
     </div>
     <script src="main.js"></script>
   </body>

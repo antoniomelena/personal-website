@@ -1,0 +1,45 @@
+@import "./resets";
+@import "~bootstrap/scss/bootstrap";
+@import "font-awesome";
+@import "hero";
+@import "header";
+@import "media";
+@import "animations";
+@import "skills";
+@import "projects";
+@import "contact";
+
+$primary: teal;
+$accent-color: #ff555f;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $accent-color;
+  font-family: monospace;
+}
+
+.scroll {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+.container {
+  width: 80%;
+  margin: 2rem auto;
+
+  p {
+    margin: 1rem 0;
+  }
+}
