@@ -5,6 +5,7 @@
 @import "header";
 @import "media";
 @import "animations";
+@import "container";
 @import "skills";
 @import "projects";
 @import "contact";
@@ -33,13 +34,4 @@ body {
 
 section {
   scroll-snap-align: start;
-}
-
-.container {
-  width: 80%;
-  margin: 2rem auto;
-
-  p {
-    margin: 1rem 0;
-  }
 }

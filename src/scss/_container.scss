@@ -1,13 +1,14 @@
-.skills {
+.container {
   height: 100vh;
-  background: rgb(49, 49, 49);
+  width: 80%;
+  margin: 100px auto;
+  background: #ff555f;
   color: #fff;
   text-align: center;
   padding: 10vh;
   position: relative;
 
-  h1 {
-    font-size: 3rem;
-    text-align: left;
+  p {
+    margin: 1rem 0;
   }
 }
