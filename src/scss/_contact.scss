@@ -2,31 +2,24 @@
   height: 100vh;
   background: rgb(153, 157, 161);
   padding: 10vh;
-  color: #000;
   text-align: center;
-  position: relative;
-
-  h1 {
-    position: absolute;
-    font-size: 3rem;
-  }
 
   .contactText {
     padding: 25px 0;
     line-height: 50px;
-    position: absolute;
-    top: 25%;
-    left: 25%;
+    margin: 100px;
 
     p {
-      font-size: 1.3rem;
+      font-size: 25px;
     }
 
     #emailText {
-      font-size: 2.5rem;
+      font-size: 45px;
     }
 
     img {
+      width: 75px;
+      height: 75px;
       margin: 10px;
     }
   }

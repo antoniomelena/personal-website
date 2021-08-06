@@ -1,4 +1,5 @@
 import "./scss/style.scss";
+import { changeSlide } from "./projects";
 
 const header = document.querySelector(".main-header");
 const sectionOne = document.querySelector(".hero");

@@ -4,11 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Antonio Melena</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
   </head>
   <body>
     <header class="main-header">
       <div class="logo">
-        <a href="#">ANTONIO MELENA</a>
+        <a href="#hero">ANTONIO MELENA</a>
       </div>
 
       <input type="checkbox" class="menu-btn" id="menu-btn" />
@@ -18,17 +22,19 @@
 
       <ul class="nav-links">
         <li id="projectsListItem" class="nav-link">
-          <a href="#">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
-        <li id="skillsListItem" class="nav-link"><a href="#">Projects</a></li>
+        <li id="skillsListItem" class="nav-link">
+          <a href="#projects">Projects</a>
+        </li>
         <li id="contactListItem" class="nav-link">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </header>
 
     <div class="scroll">
-      <section class="hero">
+      <section class="hero" id="hero">
         <h1>Aspiring Software Developer</h1>
       </section>
 
@@ -48,29 +54,29 @@
         </p>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <h1>SKILLS</h1>
         <div class="icons">
           <h2>Front End</h2>
           <div class="front-end">
             <div class="icon">
               <img src="./icons/html.svg" id="html" alt="html icon" />
-              <div class="fab html-icon">HTML</div>
+              <div class="icon-label html-icon">HTML</div>
             </div>
             <div class="icon">
               <img src="./icons/css.svg" alt="css icon" />
-              <div class="fab css-icon">CSS</div>
+              <div class="icon-label css-icon">CSS</div>
             </div>
             <div class="icon">
               <img
                 src="./icons/javascript-programming-language.svg"
                 alt="js icon"
               />
-              <div class="fab js-icon">Javascript</div>
+              <div class="icon-label js-icon">Javascript</div>
             </div>
             <div class="icon">
               <img src="./icons/sass.svg" alt="sass icon" />
-              <div class="fab sass-icon">Sass</div>
+              <div class="icon-label sass-icon">Sass</div>
             </div>
           </div>
           <h2>Back End</h2>
@@ -80,59 +86,105 @@
                 src="./icons/ruby-programming-language.svg"
                 alt="ruby icon"
               />
-              <div class="fab ruby-icon">Ruby</div>
+              <div class="icon-label ruby-icon">Ruby</div>
             </div>
             <div class="icon">
               <img
                 src="./icons/javascript-programming-language.svg"
                 alt="js icon"
               />
-              <div class="fab js-icon">Javascript</div>
+              <div class="icon-label js-icon">Javascript</div>
             </div>
             <div class="icon">
               <img src="./icons/node-js.svg" alt="node-js icon" />
-              <div class="fab node-icon">Node Js</div>
+              <div class="icon-label node-icon">Node Js</div>
             </div>
             <div class="icon">
               <img src="./icons/expressjs.svg" alt="express icon" />
-              <div class="fab express-icon">Express</div>
+              <div class="icon-label express-icon">Express</div>
             </div>
           </div>
           <h2>Misc.</h2>
           <div class="misc">
             <div class="icon">
               <img src="./icons/webpack.svg" alt="webpack icon" />
-              <div class="fab webpack-icon">Webpack</div>
+              <div class="icon-label webpack-icon">Webpack</div>
             </div>
             <div class="icon">
               <img src="./icons/npm.svg" alt="npm icon" />
-              <div class="fab npm-icon">NPM</div>
+              <div class="icon-label npm-icon">NPM</div>
             </div>
             <div class="icon">
               <img src="./icons/git.svg" alt="git icon" />
-              <div class="fab git-icon">Git</div>
+              <div class="icon-label git-icon">Git</div>
             </div>
             <div class="icon">
               <img src="./icons/github.svg" alt="github icon" />
-              <div class="fab github-icon">Github</div>
+              <div class="icon-label github-icon">Github</div>
             </div>
             <div class="icon">
               <img src="./icons/visual-studio-code.svg" alt="vs code icon" />
-              <div class="fab vs-code-icon">VS Code</div>
+              <div class="icon-label vs-code-icon">VS Code</div>
             </div>
           </div>
         </div>
       </section>
-      <section class="projects">
-        <h1>PROJECTS</h1>
+      <section class="projects" id="projects">
+        <div class="slider-container">
+          <div class="left-slide">
+            <div style="background-color: darkred">
+              <h1>Etch-A-Sketch</h1>
+              <p>View Code:</p>
+              <p>Live Preview:</p>
+            </div>
+            <div style="background-color: darkgoldenrod">
+              <h1>Tic-Tac-Toe</h1>
+              <p>View Code:</p>
+              <p>Live Preview:</p>
+            </div>
+            <div style="background-color: darkseagreen">
+              <h1>Library</h1>
+              <p>View Code:</p>
+              <p>Live Preview:</p>
+            </div>
+            <div style="background-color: darkgrey">
+              <h1>This Website</h1>
+              <p>View Code:</p>
+            </div>
+            <div style="background-color: darkmagenta">
+              <h1>Rock, Paper, Scissors</h1>
+              <p>View Code:</p>
+              <p>Live Preview:</p>
+            </div>
+            <div style="background-color: darkorange">
+              <h1>Restaurant</h1>
+              <p>View Code:</p>
+              <p>Live Preview:</p>
+            </div>
+          </div>
+          <div class="right-slide">
+            <div style="background-color: darkgoldenrod"></div>
+            <div style="background-color: darkblue"></div>
+            <div style="background-color: darkslategray"></div>
+            <div style="background-color: darkturquoise"></div>
+            <div style="background-color: darkolivegreen"></div>
+            <div style="background-color: darkorchid"></div>
+          </div>
+          <div class="action-buttons">
+            <button class="down-button">
+              <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+        </div>
       </section>
-      <section class="contact">
-        <h1>CONTACT ME</h1>
+      <section class="contact" id="contact">
         <div class="contactText">
           <p>Get in touch with me at:</p>
           <p id="emailText">melenaantonio@gmail.com</p>
           <p>OR</p>
-
           <img src="icons/github.svg" alt="github" />
           <img src="icons/linkedin-app.svg" alt="linkedin-app" />
         </div>

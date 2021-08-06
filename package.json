@@ -21,7 +21,13 @@
   "devDependencies": {
     "bootstrap": "^5.0.2",
     "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "node-sass": "^6.0.1",
+    "prettier": "^2.3.2",
     "sass": "^1.36.0",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",

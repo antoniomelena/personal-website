@@ -1,6 +1,5 @@
 @import "./resets";
 @import "~bootstrap/scss/bootstrap";
-@import "font-awesome";
 @import "hero";
 @import "header";
 @import "media";
@@ -23,7 +22,7 @@ $accent-color: #ff555f;
 
 body {
   background-color: $accent-color;
-  font-family: monospace;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
 }
 
 .scroll {
