@@ -48,16 +48,17 @@
     padding: 30px;
   }
 
-  button {
-    background-color: #fff;
+  button,
+  .linkToPage {
+    background-color: #000;
     border: none;
-    color: #aaa;
+    color: #fff;
     cursor: pointer;
     font-size: 16px;
     padding: 15px;
 
     &:hover {
-      color: #222;
+      color: #aaa;
     }
     &:focus {
       outline: none;
@@ -80,5 +81,13 @@
     transform: translateY(-100%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
+
+  .linkToPage {
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px auto;
   }
 }
