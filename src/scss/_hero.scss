@@ -1,6 +1,9 @@
 .hero {
   height: 100vh;
-  background: rgb(68, 132, 250);
+  background: rgb(57, 115, 221);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +14,7 @@
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.25);
     padding: 2rem;
     border-radius: 20px 0;
 
