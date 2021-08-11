@@ -4,10 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    // "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
-    // "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +21,6 @@
   "devDependencies": {
     "bootstrap": "^5.0.2",
     "css-loader": "^6.2.0",
-    "eslint": "^7.32.0",
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
